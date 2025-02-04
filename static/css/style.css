@@ -1,0 +1,100 @@
+@keyframes color-change{
+    0%{
+        color: #af6171;
+    }
+    50%{
+        color: brown;
+    }
+    100%{
+        color: #af6171;
+    }
+}
+
+:root{
+    --primary-color: #af6171;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: rgba(154, 78, 204, 0.158);
+
+
+}
+p{
+    color: black;
+}
+h2{
+    color:brown;
+}
+ul{
+    color:black;
+}
+h1{
+    color: brown;
+}
+h1:hover{
+    animation: color-change 3s infinite;
+
+}
+.contenedor{
+    display:flex ;
+}
+.imagen{
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px color var(--primary-color);
+
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+
+}
+
+.carimg{
+    width: 200px;
+    height: 150px;
+    margin: 0 80px;
+}
+
+.card{
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin: 0 15px;
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+h3{
+    color:brown;
+}
+
+
+.Positivos{
+    display: flex;
+    justify-content: center;
+    margin: 0 80px;
+
+}
+
+.posimg{
+    width: 200px;
+    height: 130px;
+    margin: 0 20px;
+
+}
+.aspectos1{
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin: 0 15px;
+
+}
